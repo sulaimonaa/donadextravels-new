@@ -1,0 +1,50 @@
+.popular-flights {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: #fffff9;
+}
+
+.next-btn, .back-btn{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.back-btn{
+    right: 2.1rem;
+}
+
+.slider{
+    overflow: hidden;
+    padding-top: 2.4rem;
+}
+
+.slider ul {
+    width: 200%;
+    display: flex;
+    overflow-x: hidden;
+    transition: 0.5s;
+} 
+
+.slider ul li {
+    text-decoration: none;
+    width: 50%;
+    padding-right: 20px;
+} 
+
+@media (max-width:425px) {
+    .slider ul li {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .slideTitle {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .slideTitle {
+        font-size: .65rem;
+    }
+    
+}

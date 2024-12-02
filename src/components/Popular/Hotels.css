@@ -1,0 +1,30 @@
+.popular-hotels {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.next-btn, .back-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.back-btn{
+    right: 2.1rem;
+}
+
+.hotel-title {
+    border-bottom-left-radius: 0.375rem;
+}
+@media (max-width: 425px) {
+    .mob-btn {
+        top: 2.4rem;
+    }
+}
+
+@media (max-width: 345px) {
+    .mob-btn {
+        top: 0;
+    }
+}
