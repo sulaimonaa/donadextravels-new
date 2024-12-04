@@ -73,7 +73,7 @@ const About = () => {
                             <h4 className='font-bold text-blue-900'>24/7 Support</h4>
                         </div> 
                         <p>
-                            We’re here for you every step of the way.
+                            We’re here for you every step of the way. Let's explore the world together. Your next adventure awaits!
                                 </p> 
                     </div>
                     <div className='basis-1/4 mb-4 md:mb-0'>
