@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className='basis-1/4'>
                     <h4 className='font-bold mb-3'>Company</h4>
                     <ul>
-                        <li className='mb-3'><Link to='#about'>About Us</Link></li>
+                        <li className='mb-3'><Link to='about'>About Us</Link></li>
                         <li className='mb-3'><Link to='#blog'>Blog</Link></li>
                         <li className='mb-3'><Link to='#contact'>Contact Us</Link></li>
                         <li className='mb-3'><Link to='#terms'>Terms & Conditions</Link></li>
