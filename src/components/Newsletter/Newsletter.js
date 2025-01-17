@@ -69,7 +69,7 @@ const Newsletter = () => {
                         <button
                                         type="submit"
                                         className={`p-2 rounded-e text-white border-0 basis-1/5 cursor-pointer ${
-                                            loading ? 'bg-gray-500 cursor-not-allowed' : 'bg-blue-900'
+                                            loading ? 'bg-gray-500 cursor-not-allowed animate-pulse' : 'bg-red-500'
                                         }`}
                                         disabled={loading}
                                     >

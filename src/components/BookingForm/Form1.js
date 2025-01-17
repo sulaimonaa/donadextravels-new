@@ -65,7 +65,6 @@ const Form1 = () => {
 
     return (
         <form onSubmit={handleSubmit} className='bg-gray-200/75 rounded-lg p-2 md:p-4'>
-            <h2 className='font-bold mb-2 text-center text-sm lg:text-lg xl:text-xl'>Booking Form</h2>
             <div className='flex flex-col md:flex-row gap-2 items-center mb-2'>
                 <div className='flex flex-col md:flex-row gap-2 mb-2 w-full'>
                     <label className='font-bold'>From:</label>
@@ -173,7 +172,7 @@ const Form1 = () => {
             <div className='text-center'>
                 <button
                     type="submit"
-                    className='border-0 py-1 px-3 bg-blue-900 rounded-lg text-white'
+                    className='border-0 py-1 px-3 bg-red-500 rounded-lg text-white'
                 >
                     Book Now
                 </button>

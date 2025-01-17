@@ -47,7 +47,7 @@ const Hotels = () => {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     className={`size-8 next-btn ${
-                        position <= maxPosition ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-900'
+                        position <= maxPosition ? 'bg-gray-400 cursor-not-allowed' : 'bg-red-500'
                     } p-2 text-white`}
                     onClick={slideForward}
                 >
@@ -63,7 +63,7 @@ const Hotels = () => {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     className={`size-8 back-btn ${
-                        position >= 0 ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-900'
+                        position >= 0 ? 'bg-gray-400 cursor-not-allowed' : 'bg-red-500'
                     } p-2 text-white`}
                     onClick={slideBackward}
                 >
