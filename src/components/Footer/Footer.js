@@ -2,6 +2,7 @@ import React from 'react'
 import '../Footer/Footer.css'
 import Logo from '../../assets/images/dtr-logo.png'
 import { Link } from 'react-router-dom'
+import WhatsAppChat from './WhatsAppChat'
 
 const Footer = () => {
   return (
@@ -49,6 +50,9 @@ With years of industry expertise, we offer personalized itineraries, exclusive d
                     </ul>
                 </div>
             </div>
+        </div>
+        <div className='absolute right-0 bottom-5'>
+            <WhatsAppChat />
         </div>
     </div>
   )
