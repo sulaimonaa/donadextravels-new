@@ -10,12 +10,12 @@
     {
       "src": "/dtr-logo.png",
       "type": "image/png",
-      "sizes": "609x142"
+      "sizes": "192x192"
     },
     {
       "src": "/dtr-logo.png",
       "type": "image/png",
-      "sizes": "609x142"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
