@@ -13,7 +13,7 @@ const WhatsAppChat = () => {
   return (
     <div>
       {/* Floating WhatsApp Button */}
-      
+
       <div
         onClick={() => setIsOpen(!isOpen)}
         style={{
@@ -35,7 +35,7 @@ const WhatsAppChat = () => {
           cursor: "pointer",
         }}
       >
-       💬
+        💬
       </div>
 
       {/* Chat Box */}
