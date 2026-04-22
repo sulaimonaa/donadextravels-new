@@ -48,7 +48,7 @@ const Flights = () => {
                     className={`size-8 next-btn ${
                     position <= maxPosition
                         ? 'bg-gray-400 cursor-not-allowed'
-                        : 'bg-blue-900'} p-2 text-white`}
+                        : 'bg-red-500'} p-2 text-white`}
                     onClick={slideForward}>
                     <path
                         fillRule="evenodd"
@@ -63,7 +63,7 @@ const Flights = () => {
                     className={`size-8 back-btn ${
                     position >= 0
                         ? 'bg-gray-400 cursor-not-allowed'
-                        : 'bg-blue-900'} p-2 text-white`}
+                        : 'bg-red-500'} p-2 text-white`}
                     onClick={slideBackward}>
                     <path
                         fillRule="evenodd"
